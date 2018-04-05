@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>Positronium.icns</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Positronium-Qt</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>Positronium-Qt</string>
+	<key>CFBundleIdentifier</key>
+	<string>co.Positronium.Positronium-Qt</string>
+        <key>CFBundleURLTypes</key>
+        <array>
+          <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>co.Positronium.PositroniumPayment</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+              <string>Positronium</string>
+            </array>
+          </dict>
+        </array>
+        <key>LSAppNapIsDisabled</key>
+          <string>True</string>
+</dict>
+</plist>
